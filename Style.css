@@ -1,0 +1,539 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    
+}
+body{
+
+    background-color: #EAE4FF;
+    overflow: hidden;
+    background-image: url(Image/confeti.gif);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+*::selection{
+
+    background-color: #efff08;
+    color: red;
+
+}
+/* Barra de navegación */
+.barraNav{
+
+    background-color: #910d0d;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    position: relative;
+    top: 0;
+    z-index: 1000;
+}
+.titulo{
+
+    color: #fff;
+    font-size: 3.7em;
+    
+
+}
+.opciones ul{
+
+    list-style-type: none;
+    display: inline;
+    
+
+}
+.opciones li{
+
+    cursor: pointer;
+    float: left;
+    margin: 0px 10px;
+    
+}
+.opciones a:visited{
+
+    text-decoration: none;
+    color: #fff;
+}
+.opciones a{
+
+    text-decoration: none;
+    color: #fff;
+}
+.opciones li h2{
+    
+    font-size: 2.4em;
+    color: #fff;
+
+
+}
+.opciones li:nth-child(2n+1){
+
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 500;
+
+}
+.subTitle{
+
+    font-size: 2em;
+    color: #2626ee;
+    
+
+}
+.articulosAlquiler{
+
+    background-color: rgb(223, 217, 255);
+    width: 20em;
+    height: 40em;
+    position: absolute;
+    z-index: 500;
+    right: 380px;
+    transition: .7s;
+    transform: scale(.2);
+    /* top: 90px; */
+    top: -40em;
+    border: #2626ee 3px solid;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+.articulosAlquiler::-webkit-scrollbar{
+
+    width: 8px;
+    /* background-color: red; */
+    
+
+}
+.articulosAlquiler::-webkit-scrollbar-thumb {
+
+    background-color: blue;
+    border-radius: 30px;
+    
+    
+
+}
+.articulosAlquiler ul{
+
+    height: fit-content;
+
+}
+
+.articulosAlquiler ul li{
+
+    text-align: center;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    list-style: none;
+    cursor: pointer;
+
+}
+.articulosAlquiler ul li h2{
+
+    line-height: 1.5em;
+    font-size: 1.6em;
+
+}
+.articulosAlquiler ul li h2:hover{
+
+    color: rgb(165, 165, 165);
+
+}
+.imagenesMuestra{
+
+    width: 500px;
+    height: 400px;
+    background-color: #EAE4FF;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 4px solid #2626ee;
+    position: absolute;
+    transition: 2s ease all; 
+    z-index: 0;
+    top: 200px;
+    left: 330px;
+    border-radius: 50px;
+    transform: scale(.0);
+}
+
+/* Cuerdas decorativas */
+
+.cuerdas{
+
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+    
+
+}
+.cuerdas img{
+
+    transform: rotate(90deg);
+    position: relative;
+    z-index: -500;
+    margin: 0 300px;
+}
+
+/* Contenido principal */
+
+.content{
+
+    height: 470px;
+    width: 95%;
+    position: relative;
+    top: -50px;
+    margin: auto;
+    background-color: #910d0d;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.textos{
+
+   transition: .3s;
+
+}
+.content h1, .content h2{
+
+    color: #fff;
+    margin: 30px auto;
+
+}
+.content h1{
+
+    font-size: 3em;
+}
+.content h2{
+
+    font-size: 2.8em;
+ 
+}
+.content .images{
+
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+/* Imagenes */
+#imagen1, #imagen2{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#imagen1{
+
+    z-index: 100;
+
+}
+#imagen2{
+
+    z-index: 50;
+
+}
+
+/* Typed */
+.articulos2{
+
+    color: rgb(241, 241, 3);
+    font-size: 3em;
+}
+.cursor{
+
+    font-size: 3em;
+
+}
+.socialMedia{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 35px;
+    width: 120px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10000;
+}
+.socialMedia i{
+    
+    /* border: red 3px solid; */
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0px 8px;
+}
+.socialMedia i:hover{
+
+    color: yellow;
+  
+
+}
+
+.socialMedia a{
+    
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    
+}
+.socialMedia a:visited{
+    
+    text-decoration: none;
+    
+}
+.globos{
+
+    overflow: hidden;
+
+}
+#burbuja1, #burbuja2, #burbuja3, #burbuja4, #burbuja5, #burbuja6, #burbuja7, #burbuja8, #burbuja9, #burbuja10{
+
+    position: absolute;
+    bottom: -800px;
+    opacity: .7;
+    pointer-events: none;
+    z-index: 200;
+}  
+#burbuja1{
+    
+    
+    transform: scale(.3);
+
+    left: -80px;
+  
+    
+    
+}
+#burbuja2{
+    
+   
+    transform: scale(.4);
+  
+    left: 700px;
+  
+    
+}
+#burbuja3{
+    
+
+    transform: scale(.1);
+    z-index: -230000;
+    left: 120px;
+   
+    
+}
+#burbuja4{
+    
+
+    transform: scale(.5);
+
+    left: 300px;
+  
+    
+}
+#burbuja5{
+    
+ 
+    transform: scale(.1);
+
+    left: 280px;
+  
+    
+}
+#burbuja6{
+    
+    z-index: -230000;
+    transform: scale(.4);
+   
+    left: 400px;
+  
+    
+}
+
+#burbuja7{
+    
+ 
+    transform: scale(.3);
+
+    z-index: -230000;
+    left: 950px;
+  
+    
+}
+#burbuja8{
+    
+    transform: scale(.2);
+
+    left: 1100px;
+ 
+    
+}
+#burbuja9{
+    
+  
+    transform: scale(.4);
+ 
+    left: 1200px;
+  
+    
+}
+#burbuja10{
+    
+ 
+    transform: scale(.5);
+   
+    left: 1350px;
+   
+    
+}
+
+.footer{
+
+    position: absolute;
+    margin: auto;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.footer h2, .footer h1{
+
+  color: #000000;
+
+}
+.footer h1{
+
+    font-size: 2em;
+    text-decoration: underline;
+
+}
+
+
+
+/* Media query  */
+
+
+@media only screen and (max-width: 800px) {
+    body {
+     background-image: none;
+      background-color: lightblue;
+  
+      overflow: hidden;
+    }
+    .barraNav{
+
+        height: 20%;
+
+    }
+    .cuerdas{
+
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        margin-top: -80px;
+
+    }
+    .titulo{
+
+        font-size: 3em;
+        text-align: center;
+        /* border: 1px solid green; */
+        width: 100%;
+
+    }
+    .opciones{
+
+        visibility: hidden;
+        position: absolute;
+
+    }
+    #burbuja1, #burbuja2, #burbuja3, #burbuja4, #burbuja5, #burbuja6, #burbuja7, #burbuja8, #burbuja9, #burbuja10{
+
+        visibility: hidden;
+
+    }
+    .content{
+
+        margin-top: -50px;
+
+    }
+    
+    .content h1, .content h2{
+    
+        color: #fff;
+        margin: 30px auto;
+        position: absolute;
+        left: 30px;
+    }
+    .content h1{
+    
+        font-size: 1.6em;
+        bottom: 90px;
+
+    }
+    .content h2{
+    
+        font-size: 1.4em;
+        bottom: 30px;
+    }
+    .content .images{
+    
+        border-radius: 10px;
+        height: 200px;
+        width: 250px;
+        overflow: hidden;
+         position: absolute;
+        float: left;
+        top: 40px;
+    }
+    .articulos2{
+
+        font-size: 1.6em;
+
+    }
+    .cursor{
+
+        font-size: 1.6em;
+
+    }
+    .footer{
+
+        margin-bottom: -10px;
+
+    }
+    .footer h1{
+
+        font-size: 1.5em;
+
+    }
+    .footer h2{
+
+        font-size: 1em;
+
+    }
+  }
