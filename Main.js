@@ -362,40 +362,6 @@ let textos = document.querySelector(".textos");
     });
     /////////////////////////////////////   
 
-    // sillas
-    // sillas.addEventListener("mouseover",()=>{
-
-    //     imagenesMuestra.style.transition = ".2s";
-    //     imagenesMuestra.style.transform = "scale(1)";
-    //     imagenesMuestra.style.zIndex = "600";
-
-    // });
-    // sillas.addEventListener("mouseleave",()=>{
-
-    //     imagenesMuestra.style.transition = ".5s";
-    //     imagenesMuestra.style.transform = "scale(.0)";
-    //     imagenesMuestra.style.zIndex = "0";
-
-    // });
-    // // mesas
-    // mesas.addEventListener("mouseover",()=>{
-
-    //     imagenesMuestra.style.transition = ".2s";
-    //     imagenesMuestra.style.transform = "scale(1)";
-    //     imagenesMuestra.style.zIndex = "600";
-
-    // });
-    // mesas.addEventListener("mouseleave",()=>{
-
-    //     imagenesMuestra.style.transition = ".5s";
-    //     imagenesMuestra.style.transform = "scale(.0)";
-    //     imagenesMuestra.style.zIndex = "0";
-
-    // });
-
-
-
-
 
 
     // Eventos de los articulos
@@ -459,16 +425,6 @@ let typed = new Typed('.typed', {
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
 
-// Globos
-
-// let globosContainer = document.querySelector('.globos');
-// let globo1 = document.querySelector('#globo1');
-// let globo2 = document.querySelector('#globo2');
-// let globo3 = document.querySelector('#globo3');
-
-// globosContainer.style.width = (screen.width + 100) + "px";
-// globosContainer.style.height = (screen.height + 100) + "px";
-// globosContainer.style.left = "-50px";
 
 window.onload = ()=>{
 
@@ -483,7 +439,7 @@ window.onload = ()=>{
     const burbuja8 = document.getElementById('burbuja8');
     const burbuja9 = document.getElementById('burbuja9');
     const burbuja10 = document.getElementById('burbuja10');
-    // const ventana = document.querySelector(".content");
+    
     posicionTop = 0;
     
 
