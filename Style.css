@@ -19,7 +19,7 @@ body{
 *::selection{
 
     background-color: #efff08;
-    color: red;
+    color: blue;
 
 }
 /* Barra de navegación */
@@ -158,7 +158,7 @@ body{
     transition: 2s ease all; 
     z-index: 0;
     top: 200px;
-    left: 330px;
+    left: 250px;
     border-radius: 50px;
     transform: scale(.0);
 }
@@ -190,7 +190,7 @@ body{
     height: 470px;
     width: 95%;
     position: relative;
-    top: -50px;
+    top: -80px;
     margin: auto;
     background-color: #910d0d;
     border-radius: 40px;
