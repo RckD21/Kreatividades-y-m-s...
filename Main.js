@@ -1,6 +1,26 @@
+let tapon = document.querySelector(".tapon");
+window.addEventListener("load",()=>{
 
+ 
+    if(window.innerWidth <= 700 || window.screen.availWidth <= 700) 
+    {
+        tapon.style.visibility = "visible";
+        alert("Para poder disfrutar de todos los efectos de la página, por favor acceda desde un computador.")
+    }
+
+});
 window.addEventListener("resize",()=>{
- if(window.innerWidth <= 700) alert("Para poder disfrutar de todos los efectos de la página, por favor acceda desde un computador.")
+    if(window.innerWidth <= 700 || window.screen.availWidth <= 700) 
+    {
+        tapon.style.visibility = "visible";
+        alert("Para poder disfrutar de todos los efectos de la página, por favor acceda desde un computador.")
+    }
+    else{
+
+        tapon.style.visibility = "hidden";
+
+    }
+
 });
 
 let articulosAlquilier = document.querySelector(".articulosAlquiler");

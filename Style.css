@@ -543,3 +543,15 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
     }
   }
+  .tapon{
+
+    background-color: #7070ff;
+    height: 500vh;
+    width: 500%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 9999999999999;
+
+  }
