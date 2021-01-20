@@ -413,7 +413,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
     position: absolute;
     margin: auto;
-    bottom: 0px;
+    bottom: 5px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -444,6 +444,11 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   
       overflow: hidden;
     }
+    .globos{
+
+        visibility: hidden;
+
+    }
     .barraNav{
 
         height: 20%;
@@ -451,6 +456,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     }
     .cuerdas{
 
+        visibility: collapse;
         width: 80%;
         height: fit-content;
         display: flex;
