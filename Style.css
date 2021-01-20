@@ -147,8 +147,8 @@ body{
 }
 .imagenesMuestra{
 
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: #EAE4FF;
     background-position: center;
     background-size: contain;
@@ -158,7 +158,7 @@ body{
     transition: 2s ease all; 
     z-index: 0;
     top: 200px;
-    left: 250px;
+    left: 100px;
     border-radius: 50px;
     transform: scale(.0);
 }
@@ -187,7 +187,7 @@ body{
 
 .content{
 
-    height: 470px;
+    height: 440px;
     width: 95%;
     position: relative;
     top: -80px;
