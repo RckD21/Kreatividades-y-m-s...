@@ -413,7 +413,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
     position: absolute;
     margin: auto;
-    bottom: 10px;
+    bottom: 0px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
