@@ -187,10 +187,10 @@ body{
 
 .content{
 
-    height: 440px;
+    height: 400px;
     width: 95%;
     position: relative;
-    top: -80px;
+    top: -60px;
     margin: auto;
     background-color: #910d0d;
     border-radius: 40px;
