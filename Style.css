@@ -92,7 +92,7 @@ body{
 
     background-color: rgb(223, 217, 255);
     width: 20em;
-    height: 40em;
+    height: 38em;
     position: absolute;
     z-index: 500;
     right: 380px;
@@ -157,7 +157,7 @@ body{
     position: absolute;
     transition: 2s ease all; 
     z-index: 0;
-    top: 200px;
+    top: 180px;
     left: 150px;
     border-radius: 50px;
     transform: scale(.0);
