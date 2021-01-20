@@ -157,7 +157,7 @@ body{
     position: absolute;
     transition: 2s ease all; 
     z-index: 0;
-    top: 180px;
+    top: 160px;
     left: 150px;
     border-radius: 50px;
     transform: scale(.0);
